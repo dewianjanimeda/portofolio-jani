@@ -3,49 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title> Jan's Digital Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo" width="100">
+        <img src="images/logo w.png" alt="Logo" width="100">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Biography</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="biographi.html">Biography</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section>
-        <h2>Hi, I'm Dewi Anjani Meda!</h2>
-        <h1>A DESIGN GRAPHIC & FOTOGRAFI</h1>
-        <p>"Create creative, aesthetic and meaningful visuals"</p>
-        <button>Download CV</button>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hi, I'm Dewi Anjani Meda!</h2>
+            <h1>A GRAPHIC DESIGNER <br> & PHOTOGRAPHY</h1>
+        </div>
+        <div class="hero-image">
+            <div class="gradient-circle"></div>
+            <img src="images/awal.png" alt="Profile Image">
+        </div>
+        <div class="hero-description">
+            <p>"Create creative, aesthetic <br> and meaningful visuals"</p>
+            <a href="files/cv-dewianjani.pdf" download class="download-btn">Download CV</a>
+        </div>
     </section>
     
-    <section>
-        <div>
+    <section class="content">
+        <a href="biographi.html" class="card">
             <h3>View Biography</h3>
-            <img src="images/satu.png" alt="Biography Image"width="200">
-        </div>
-        <div>
+            <img src="images/satu.png" alt="Biography Image" width="200">
+        </a>
+        
+        <a href="portofolio.html" class="card">
             <h3>View Portfolio</h3>
-            <img src="images/dua.png" alt="Portfolio Image"width="200">
-        </div>
-        <div>
+            <img src="images/dua.png" alt="Portfolio Image" width="200">
+        </a>
+        
+        <a href="blog.html" class="card">
             <h3>View Blog</h3>
-            <img src="images/tiga.png" alt="Blog Image"width="200">
-        </div>
-        <div>
+            <img src="images/tiga.png" alt="Blog Image" width="200">
+        </a>
+        
+        <a href="content.html" class="card">
             <h3>View Content</h3>
-            <img src="images/empat.png" alt="Content Image"width="200">
-        </div>
+            <img src="images/empat.png" alt="Content Image" width="200">
+        </a>
     </section>
     
 
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="images/logo w.png" alt="Logo" width="100">
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biographi.html">Biography</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-social">
+            <a href="https://www.tiktok.com/@sugarbabyjhyys?_t=ZS-8vDuf028tL3&_r=1"><img src="images/tiktok.png" alt="Instagram" width="20"></a>
+            <a href="https://www.linkedin.com/in/dewi-anjani-meda-5ba826295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/linkedin.png" alt="LinkedIn" width="20"></a>
+            <a href="https://www.instagram.com/janlloev/profilecard/?igsh=MTQ0ZjBmMHAycXJ0ZA=="><img src="images/instagram.png" alt="Instagram" width="20"></a>
+        </div>
+    </footer>
+    
 </body>
 </html>
