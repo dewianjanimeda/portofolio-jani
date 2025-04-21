@@ -8,13 +8,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+.body {
     background-color: #111;
     color: #fff;
     text-align: center;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,8 +127,8 @@ button:hover {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(4, auto); /* ganti dari 1fr ke auto */
-    justify-content: center; /* untuk meratakan isi ke tengah */
+    grid-template-columns: repeat(4, auto); 
+    justify-content: center; 
     gap: 40px;
     margin-top: 180px;
     padding: 0 50px;
@@ -164,7 +164,7 @@ button:hover {
 
 @media (max-width: 1024px) {
     .content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
